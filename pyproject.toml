@@ -1,0 +1,28 @@
+[project]
+name = "fbd-plotting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Connor Ferster", email = "connorferster@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.8",
+]
+
+[project.scripts]
+fbd-plotting = "fbd_plotting:main"
+
+[build-system]
+requires = ["uv_build>=0.9.14,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "jsonchain>=0.5.1",
+    "pip>=25.3",
+    "pynite-tools>=0.6.7",
+    "pynitefea==1.6.2",
+]
