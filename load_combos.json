@@ -1,0 +1,78 @@
+[
+  {
+    "name": "ULS-LC1",
+    "factors": {
+      "D": 1.4
+    }
+  },
+  {
+    "name": "ULS-LC2",
+    "factors": {
+      "D": 1.25,
+      "L": 1.5
+    }
+  },
+  {
+    "name": "ULS-LC3",
+    "factors": {
+      "D": 1.25,
+      "L": 1.5,
+      "S": 1.0
+    }
+  },
+  {
+    "name": "ULS-LC4",
+    "factors": {
+      "D": 1.25,
+      "L": 1.0,
+      "S": 1.5
+    }
+  },
+  {
+    "name": "ULS-LC5",
+    "factors": {
+      "D": 1.25,
+      "S": 1.5
+    }
+  },
+  {
+    "name": "ULS-LC6",
+    "factors": {
+      "D": 1.25,
+      "S": 1.5,
+      "L": 1.0
+    }
+  },
+  {
+    "name": "SLS-DL",
+    "factors": {
+      "D": 1.0,
+      "L": 1.0
+    }
+  },
+  {
+    "name": "SLS-DS",
+    "factors": {
+      "D": 1.0,
+      "S": 1.0
+    }
+  },
+  {
+    "name": "D",
+    "factors": {
+      "D": 1.0
+    }
+  },
+  {
+    "name": "L",
+    "factors": {
+      "L": 1.0
+    }
+  },
+  {
+    "name": "S",
+    "factors": {
+      "S": 1.0
+    }
+  }
+]
